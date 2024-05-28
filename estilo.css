@@ -1,0 +1,180 @@
+h2, h3
+{
+    text-align: center;
+    font-style: normal;
+}
+
+.header-content h1
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+}
+
+body
+{
+    background-color: rgb(255, 250, 243);
+    margin: 0;
+    width: 100vw;
+}
+
+hr
+{
+    opacity: 60%;
+    width: 50%;
+}
+
+header nav ul
+{
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li, a
+{
+    margin: 0 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+
+header nav
+{
+    display: flex;
+    justify-content: center;
+    margin: auto 5px;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+header
+{
+    height: 40vh;
+    background: rgb(231, 220, 208)
+
+}
+
+.header-content
+{
+    max-width: 400px;
+    margin: 25px auto;
+    text-align: center;
+}
+
+@media (max-width: 720px)
+{
+    header
+    {
+
+    }
+}
+@media (max-width: 400px)
+{
+    body
+    {
+        height: calc(100vh - 55px);
+    }
+    header nav ul
+    {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+
+        background: rgb(231, 220, 208);
+        height: 55px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    img
+    {
+        margin: 2%;
+        width: max(300px, 30vw);
+
+    }
+
+    .container1
+    {
+        flex-direction: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        text-align: center;
+    }
+
+    .container2
+    {
+        flex-direction: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        text-align: center;
+    }
+
+    p
+    {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        line-height: 1.1;
+    }
+}
+
+p, h4
+{
+    padding: 2%;
+    line-height: 1.1;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.poema
+{
+    padding: 1%;
+    line-height: 1.1;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 40px;
+}
+
+.poema2
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 55px;
+}
+
+section
+{
+    margin: 1px;
+    justify-items: center;
+}
+
+.container1
+{
+    display: flex;
+    align-items: center;
+}
+
+.container2
+{
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.container3
+{
+    display: flex;
+
+    align-items: center;
+    
+    justify-content: center;
+}
+
+img
+{
+    margin: 2%;
+    width: max(300px, 30vw);
+    margin-left: auto;
+    margin-right: auto;
+}
